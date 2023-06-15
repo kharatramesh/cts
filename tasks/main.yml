@@ -1,0 +1,6 @@
+---
+- import_tasks: install.yaml 
+- import_tasks: service.yaml
+- import_tasks: createdb.yaml
+- import_tasks: usercreation.yaml
+- import_tasks: remotelogin.yaml

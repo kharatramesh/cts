@@ -1,0 +1,4 @@
+- name: creating medium_db
+  mysql_db:
+    name: "{{db_name}}"
+    state: present
