@@ -1,0 +1,8 @@
+---
+- name: Copy httpd configuration file
+  copy: src=httpd.conf dest=/home/
+- name: Copy index.php file
+  copy: src=index.php dest=/var/www/html
+  notify:
+  - restart apache
+...

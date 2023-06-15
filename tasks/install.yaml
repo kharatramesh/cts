@@ -1,0 +1,8 @@
+---
+- name: Install httpd Package
+  apt: name=apache2 state=latest 
+- name: Install php Package
+  apt: name=php state=latest 
+- name: Install php-mysql Package
+  apt: name=php-mysql state=latest 
+...
